@@ -2107,6 +2107,14 @@ design rules under a new name.</description>
 <wire x1="35.8236" y1="30.1684" x2="34.1376" y2="30.1684" width="0.254" layer="16"/>
 <wire x1="35.8236" y1="29.6684" x2="34.1376" y2="29.6684" width="0.254" layer="16"/>
 <wire x1="35.6204" y1="29.1684" x2="33.9344" y2="29.1684" width="0.254" layer="16"/>
+<via x="30.48" y="33.528" extent="1-16" drill="0.508"/>
+<via x="30.48" y="32.3088" extent="1-16" drill="0.508"/>
+<via x="26.8224" y="33.528" extent="1-16" drill="0.508"/>
+<via x="26.8224" y="32.3088" extent="1-16" drill="0.508"/>
+<via x="28.0416" y="34.7472" extent="1-16" drill="0.508"/>
+<via x="29.2608" y="34.7472" extent="1-16" drill="0.508"/>
+<via x="28.0416" y="31.0896" extent="1-16" drill="0.508"/>
+<via x="29.2608" y="31.0896" extent="1-16" drill="0.508"/>
 </signal>
 <signal name="TD_DP">
 <contactref element="R1" pad="2"/>
@@ -2547,13 +2555,13 @@ design rules under a new name.</description>
 <approved hash="4,1,929512588ff9f04f"/>
 <approved hash="4,1,135a04bf15810cae"/>
 <approved hash="4,1,ef4cc9c22d246469"/>
-<approved hash="5,1,bd68c0ae20f25fe4"/>
 <approved hash="5,1,b866c5d43a205aaa"/>
+<approved hash="5,1,bd68c0ae20f25fe4"/>
 <approved hash="5,1,f7bf6e16854452c2"/>
 <approved hash="19,16,db1a9a1b5e67201a"/>
-<approved hash="19,16,fc356f75537211cf"/>
 <approved hash="19,16,d58695234ebd2f9a"/>
 <approved hash="19,16,fda16fe1408010ef"/>
+<approved hash="19,16,fc356f75537211cf"/>
 <approved hash="19,16,30c9a9c8effc38f1"/>
 <approved hash="19,16,0aeb50d668c93d2e"/>
 <approved hash="19,16,6ccbddca1fef52f1"/>
