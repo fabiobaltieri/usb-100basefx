@@ -9104,7 +9104,7 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 </class>
 </classes>
 <parts>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="10u"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="130"/>
 <part name="LED1" library="led" deviceset="LED" device="CHIPLED_0805"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
@@ -9113,7 +9113,7 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <part name="U1" library="balto" deviceset="AX88772B" device=""/>
 <part name="U2" library="balto" deviceset="AFBR-5803Z" device=""/>
 <part name="BOX1" library="hammond" deviceset="HAMMOND-BOX" device="-R"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="10u"/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0603" value="82"/>
@@ -9149,8 +9149,8 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <part name="R14" library="rcl" deviceset="R-EU_" device="R0603" value="22"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="Y1" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="5X3" value="25MHz"/>
-<part name="C7" library="rcl" deviceset="C-EU" device="C0603" value="18p"/>
-<part name="C8" library="rcl" deviceset="C-EU" device="C0603" value="18p"/>
+<part name="C7" library="rcl" deviceset="C-EU" device="C0603" value="33p"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="C0603" value="33p"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="R15" library="rcl" deviceset="R-EU_" device="R0603" value="1M"/>
