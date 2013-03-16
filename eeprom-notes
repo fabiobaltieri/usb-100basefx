@@ -1,0 +1,60 @@
+dump:
+ethtool -e eth1
+
+dump config register:
+ethtool -e eth1 offset 2 length 1
+
+copper mode:
+./ethtool  -E eth1 magic 0xdeadbeef offset 2 length 1 value 0xec
+
+fiber mode:
+./ethtool  -E eth1 magic 0xdeadbeef offset 2 length 1 value 0xcc
+
+notes:
+
+15 5a 0
+
+ec 75 1 --> 75ec: 0111 0101  1110 1100
+                             1100 1100
+
+20 12 2
+29 27 3
+
+00 80 4
+80 8a 5
+62 b8 6
+
+09 04 
+60 22 
+71 12 
+19 0e 
+3d 04 
+3d 04 
+3d 04 
+3d 04 
+
+80 05 f
+00 06 0
+10 e0 1
+42 24 2
+40 12 3
+49 27 4
+ff ff 5
+00 00 6
+ff ff 7
+c0 09 8
+
+0e 03 30 00 30 00 30 00 30 00 30 00 31 00 
+12 01 00 02 ff ff 00 40 95 0b 2b 77 01 00 01 02 
+03 01 09 02 27 00 01 01 04 a0 64 09 04 00 00 03 
+ff ff 00 07 07 05 81 03 08 00 0b 07 05 82 02 00 
+02 00 07 05 03 02 00 02 00 ff 04 03 30 00 ff ff 
+12 01 00 02 ff ff 00 08 95 0b 2b 77 01 00 01 02 
+03 01 09 02 27 00 01 01 04 a0 64 09 04 00 00 03 
+ff ff 00 07 07 05 81 03 08 00 a0 07 05 82 02 40 
+00 00 07 05 03 02 40 00 00 dd ff ff aa aa bb bb 
+22 03 41 00 53 00 49 00 58 00 20 00 45 00 6c 00 
+65 00 63 00 2e 00 20 00 43 00 6f 00 72 00 70 00 
+2e 00 12 03 41 00 58 00 38 00 38 00 37 00 37 00 
+32 00 42 00 ff ff ff ff ff ff ff ff ff ff ff ff 
+
