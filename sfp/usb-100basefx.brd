@@ -1669,6 +1669,140 @@ We've spent an enormous amount of time creating and checking these footprints an
 </package>
 </packages>
 </library>
+<library name="cat">
+<packages>
+<package name="CAT-L">
+<polygon width="0.0508" layer="21">
+<vertex x="-0.75" y="-0.9" curve="-39.116744"/>
+<vertex x="-0.95" y="-0.6" curve="-46.186939"/>
+<vertex x="-0.95" y="-0.4" curve="-36.128927"/>
+<vertex x="-0.9" y="-0.3" curve="24.894692"/>
+<vertex x="-0.4" y="0.3" curve="-78.463041"/>
+<vertex x="-0.3" y="0.4" curve="-37.167285"/>
+<vertex x="0.35" y="0.4" curve="-53.130102"/>
+<vertex x="0.45" y="0.3" curve="22.619865"/>
+<vertex x="0.7" y="-0.05" curve="-31.178836"/>
+<vertex x="0.8" y="-0.2" curve="-37.107971"/>
+<vertex x="0.8" y="-0.65" curve="-8.807799"/>
+<vertex x="0.75" y="-0.75" curve="-17.969754"/>
+<vertex x="0.65" y="-0.85" curve="-53.130102"/>
+<vertex x="0.35" y="-0.85" curve="41.849665"/>
+<vertex x="0.1" y="-0.85" curve="-59.33617"/>
+<vertex x="-0.25" y="-0.85" curve="60"/>
+<vertex x="-0.55" y="-0.9" curve="-58.034281"/>
+</polygon>
+<polygon width="0.0508" layer="21">
+<vertex x="-1.35" y="-0.15" curve="-55.32188"/>
+<vertex x="-1.5" y="0.05" curve="-44.235781"/>
+<vertex x="-1.4" y="0.65" curve="-34.216051"/>
+<vertex x="-1.25" y="0.8" curve="-56.632987"/>
+<vertex x="-1.1" y="0.8" curve="-47.54585"/>
+<vertex x="-0.9" y="0.5" curve="-45.514404"/>
+<vertex x="-0.95" y="0.05" curve="-58.034281"/>
+<vertex x="-1.15" y="-0.15" curve="-32.85988"/>
+</polygon>
+<polygon width="0.0508" layer="21">
+<vertex x="-0.65" y="0.8" curve="-46.186939"/>
+<vertex x="-0.75" y="1.1" curve="-42.781859"/>
+<vertex x="-0.55" y="1.6" curve="-20.364135"/>
+<vertex x="-0.5" y="1.65" curve="-78.463041"/>
+<vertex x="-0.3" y="1.65" curve="-46.228758"/>
+<vertex x="-0.15" y="1.35" curve="-46.491551"/>
+<vertex x="-0.15" y="0.9" curve="-25.841933"/>
+<vertex x="-0.25" y="0.8" curve="-31.466976"/>
+<vertex x="-0.4" y="0.75" curve="-56.514623"/>
+</polygon>
+<polygon width="0.0508" layer="21">
+<vertex x="0.25" y="0.95" curve="-51.855487"/>
+<vertex x="0.15" y="1.1" curve="-52.455675"/>
+<vertex x="0.25" y="1.65" curve="-16.260205"/>
+<vertex x="0.35" y="1.75" curve="-18.381189"/>
+<vertex x="0.45" y="1.8" curve="-17.14621"/>
+<vertex x="0.55" y="1.8" curve="-36.869898"/>
+<vertex x="0.65" y="1.7" curve="-12.774587"/>
+<vertex x="0.7" y="1.6" curve="-43.136259"/>
+<vertex x="0.7" y="1.1" curve="-49.875965"/>
+<vertex x="0.5" y="0.9" curve="-51.855487"/>
+</polygon>
+<polygon width="0.0508" layer="21">
+<vertex x="0.8" y="0.2" curve="-41.409622"/>
+<vertex x="0.75" y="0.35" curve="-41.353921"/>
+<vertex x="1" y="1" curve="-13.930555"/>
+<vertex x="1.05" y="1.05" curve="-53.130102"/>
+<vertex x="1.15" y="1.05" curve="-32.145666"/>
+<vertex x="1.35" y="0.7" curve="-43.888551"/>
+<vertex x="1.35" y="0.25" curve="-17.14621"/>
+<vertex x="1.25" y="0.15" curve="-30.558432"/>
+<vertex x="1.1" y="0.1" curve="-59.189843"/>
+</polygon>
+</package>
+<package name="CAT-R">
+<polygon width="0.0508" layer="21">
+<vertex x="0.75" y="-0.9" curve="39.116744"/>
+<vertex x="0.95" y="-0.6" curve="46.186939"/>
+<vertex x="0.95" y="-0.4" curve="36.128927"/>
+<vertex x="0.9" y="-0.3" curve="-24.894692"/>
+<vertex x="0.4" y="0.3" curve="78.463041"/>
+<vertex x="0.3" y="0.4" curve="37.167285"/>
+<vertex x="-0.35" y="0.4" curve="53.130102"/>
+<vertex x="-0.45" y="0.3" curve="-22.619865"/>
+<vertex x="-0.7" y="-0.05" curve="31.178836"/>
+<vertex x="-0.8" y="-0.2" curve="37.107971"/>
+<vertex x="-0.8" y="-0.65" curve="8.807799"/>
+<vertex x="-0.75" y="-0.75" curve="17.969754"/>
+<vertex x="-0.65" y="-0.85" curve="53.130102"/>
+<vertex x="-0.35" y="-0.85" curve="-41.849665"/>
+<vertex x="-0.1" y="-0.85" curve="59.33617"/>
+<vertex x="0.25" y="-0.85" curve="-60"/>
+<vertex x="0.55" y="-0.9" curve="58.034281"/>
+</polygon>
+<polygon width="0.0508" layer="21">
+<vertex x="1.35" y="-0.15" curve="55.32188"/>
+<vertex x="1.5" y="0.05" curve="44.235781"/>
+<vertex x="1.4" y="0.65" curve="34.216051"/>
+<vertex x="1.25" y="0.8" curve="56.632987"/>
+<vertex x="1.1" y="0.8" curve="47.54585"/>
+<vertex x="0.9" y="0.5" curve="45.514404"/>
+<vertex x="0.95" y="0.05" curve="58.034281"/>
+<vertex x="1.15" y="-0.15" curve="32.85988"/>
+</polygon>
+<polygon width="0.0508" layer="21">
+<vertex x="0.65" y="0.8" curve="46.186939"/>
+<vertex x="0.75" y="1.1" curve="42.781859"/>
+<vertex x="0.55" y="1.6" curve="20.364135"/>
+<vertex x="0.5" y="1.65" curve="78.463041"/>
+<vertex x="0.3" y="1.65" curve="46.228758"/>
+<vertex x="0.15" y="1.35" curve="46.491551"/>
+<vertex x="0.15" y="0.9" curve="25.841933"/>
+<vertex x="0.25" y="0.8" curve="31.466976"/>
+<vertex x="0.4" y="0.75" curve="56.514623"/>
+</polygon>
+<polygon width="0.0508" layer="21">
+<vertex x="-0.25" y="0.95" curve="51.855487"/>
+<vertex x="-0.15" y="1.1" curve="52.455675"/>
+<vertex x="-0.25" y="1.65" curve="16.260205"/>
+<vertex x="-0.35" y="1.75" curve="18.381189"/>
+<vertex x="-0.45" y="1.8" curve="17.14621"/>
+<vertex x="-0.55" y="1.8" curve="36.869898"/>
+<vertex x="-0.65" y="1.7" curve="12.774587"/>
+<vertex x="-0.7" y="1.6" curve="43.136259"/>
+<vertex x="-0.7" y="1.1" curve="49.875965"/>
+<vertex x="-0.5" y="0.9" curve="51.855487"/>
+</polygon>
+<polygon width="0.0508" layer="21">
+<vertex x="-0.8" y="0.2" curve="41.409622"/>
+<vertex x="-0.75" y="0.35" curve="41.353921"/>
+<vertex x="-1" y="1" curve="13.930555"/>
+<vertex x="-1.05" y="1.05" curve="53.130102"/>
+<vertex x="-1.15" y="1.05" curve="32.145666"/>
+<vertex x="-1.35" y="0.7" curve="43.888551"/>
+<vertex x="-1.35" y="0.25" curve="17.14621"/>
+<vertex x="-1.25" y="0.15" curve="30.558432"/>
+<vertex x="-1.1" y="0.1" curve="59.189843"/>
+</polygon>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1901,6 +2035,12 @@ BatchPCB compatible</description>
 <element name="C31" library="rcl" package="C0603" value="1u" x="6.7056" y="13.4112" rot="R270"/>
 <element name="R1" library="rcl" package="R0603" value="0" x="15.6464" y="8.9408" rot="MR0"/>
 <element name="R3" library="rcl" package="R0603" value="0" x="15.6464" y="7.5184" rot="MR0"/>
+<element name="U$2" library="cat" package="CAT-L" value="" x="12.192" y="27.0256" rot="R270"/>
+<element name="U$3" library="cat" package="CAT-R" value="" x="19.1008" y="23.9776" rot="R270"/>
+<element name="U$4" library="cat" package="CAT-L" value="" x="23.5712" y="27.0256" rot="R270"/>
+<element name="U$5" library="cat" package="CAT-R" value="" x="27.6352" y="24.9936" rot="R270"/>
+<element name="U$7" library="cat" package="CAT-R" value="" x="42.2656" y="24.5872" rot="R270"/>
+<element name="U$8" library="cat" package="CAT-L" value="" x="45.5168" y="27.0256" rot="R270"/>
 </elements>
 <signals>
 <signal name="VCC">
