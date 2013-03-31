@@ -2205,6 +2205,8 @@ BatchPCB compatible</description>
 <wire x1="16.0528" y1="15.24" x2="17.4752" y2="13.8176" width="0.2032" layer="16"/>
 <wire x1="42.0624" y1="13.6144" x2="42.0624" y2="14.6304" width="0.2032" layer="16"/>
 <wire x1="42.0624" y1="14.6304" x2="41.2496" y2="15.4432" width="0.2032" layer="16"/>
+<wire x1="35.7632" y1="18.034" x2="35.7632" y2="14.6304" width="0.2032" layer="1"/>
+<wire x1="35.7632" y1="14.6304" x2="35.3568" y2="14.224" width="0.2032" layer="1"/>
 </signal>
 <signal name="TD_DP">
 <contactref element="U1" pad="12"/>
