@@ -107,7 +107,7 @@
 <text x="9.3472" y="21.336" size="1.27" layer="121">USB-100baseFX</text>
 <text x="9.3472" y="19.7104" size="1.27" layer="121">SFP</text>
 <text x="9.3472" y="18.288" size="1.27" layer="121">rev0</text>
-<hole x="37.0078" y="2.7432" drill="1.5"/>
+<hole x="37.0078" y="2.7432" drill="1.6"/>
 </plain>
 <libraries>
 <library name="rcl">
@@ -2795,10 +2795,10 @@ BatchPCB compatible</description>
 </signal>
 </signals>
 <errors>
-<approved hash="2,20,e0356d56deff2a31"/>
+<approved hash="2,20,42ef8660269d1101"/>
 <approved hash="4,1,c1ace92855eab3cb"/>
 <approved hash="4,1,2715df72de6dac17"/>
-<approved hash="4,1,f85f2b16d6f123da"/>
+<approved hash="4,1,786f3652a4434765"/>
 <approved hash="5,1,f2479240cc027c1b"/>
 <approved hash="5,1,7dc3cd5f911bf199"/>
 <approved hash="5,16,323a52443c7e2c66"/>
@@ -2813,7 +2813,7 @@ BatchPCB compatible</description>
 <approved hash="6,16,a9208b7d69d0b3b3"/>
 <approved hash="6,16,5ecbba5405bb2e2f"/>
 <approved hash="6,16,de1af5d83006d454"/>
-<approved hash="4,16,f85f2b16d6f123da"/>
+<approved hash="4,16,786f3652a4434765"/>
 <approved hash="5,16,3c5084cb84f6bc70"/>
 <approved hash="5,16,7cd26b7320c82c0e"/>
 <approved hash="5,16,bbb0125f89f363bd"/>
