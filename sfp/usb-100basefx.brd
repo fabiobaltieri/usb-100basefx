@@ -2047,8 +2047,8 @@ BatchPCB compatible</description>
 <element name="C25" library="rcl" package="C0603" value=".1u" x="28.6512" y="16.6624" rot="MR270"/>
 <element name="C26" library="rcl" package="C0603" value=".1u" x="40.0304" y="24.9936" rot="MR180"/>
 <element name="C27" library="rcl" package="C0603" value=".1u" x="42.2656" y="10.9728" rot="MR90"/>
-<element name="R20" library="rcl" package="R0603" value="130" x="20.9296" y="8.7376" rot="MR90"/>
-<element name="R21" library="rcl" package="R0603" value="82" x="34.1376" y="8.9408" rot="MR0"/>
+<element name="R20" library="rcl" package="R0603" value="4k7" x="20.9296" y="8.7376" rot="MR90"/>
+<element name="R21" library="rcl" package="R0603" value="4k7" x="34.1376" y="8.9408" rot="MR0"/>
 <element name="IC1" library="SparkFun-PowerIC" package="SOT223" value="LD33" x="49.1744" y="5.6896" rot="MR270"/>
 <element name="C9" library="rcl" package="C0603" value=".1u" x="18.288" y="6.7056" rot="MR270"/>
 <element name="U2" library="balto" package="SFP" value="SFP" x="50.5968" y="8.7376" rot="R180"/>
@@ -2065,7 +2065,7 @@ BatchPCB compatible</description>
 <element name="U$5" library="cat" package="CAT-R" value="" x="27.6352" y="24.9936" rot="R270"/>
 <element name="U$7" library="cat" package="CAT-R" value="" x="42.2656" y="24.5872" rot="R270"/>
 <element name="U$8" library="cat" package="CAT-L" value="" x="45.5168" y="27.0256" rot="R270"/>
-<element name="Q1" library="SparkFun-DiscreteSemi" package="SOT23" value="MOSFET-NCHANNELBSS123LT1G" x="29.8704" y="8.3312" rot="MR90">
+<element name="Q1" library="SparkFun-DiscreteSemi" package="SOT23" value="BSS138" x="29.8704" y="8.3312" rot="MR90">
 <attribute name="PROD_ID" value="TRANS-08345" x="29.8704" y="8.3312" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 </elements>
@@ -2965,7 +2965,7 @@ BatchPCB compatible</description>
 <wire x1="13.4484" y1="7.112" x2="14.39" y2="7.112" width="0.4064" layer="16"/>
 <wire x1="14.39" y1="7.112" x2="14.7964" y2="7.5184" width="0.4064" layer="16"/>
 </signal>
-<signal name="SD_OUT">
+<signal name="SD_N">
 <contactref element="Q1" pad="3"/>
 <contactref element="R21" pad="2"/>
 <contactref element="U1" pad="7"/>
