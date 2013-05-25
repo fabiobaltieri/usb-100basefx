@@ -9855,16 +9855,17 @@ High-power, low thermal resistance package.</description>
 <wire x1="160.02" y1="35.56" x2="160.02" y2="2.54" width="0.1524" layer="97"/>
 <wire x1="160.02" y1="2.54" x2="83.82" y2="2.54" width="0.1524" layer="97"/>
 <wire x1="83.82" y1="2.54" x2="83.82" y2="35.56" width="0.1524" layer="97"/>
-<wire x1="2.54" y1="124.46" x2="109.22" y2="124.46" width="0.1524" layer="97"/>
-<wire x1="109.22" y1="124.46" x2="109.22" y2="48.26" width="0.1524" layer="97"/>
+<wire x1="2.54" y1="127" x2="109.22" y2="127" width="0.1524" layer="97"/>
+<wire x1="109.22" y1="127" x2="109.22" y2="48.26" width="0.1524" layer="97"/>
 <wire x1="109.22" y1="48.26" x2="2.54" y2="48.26" width="0.1524" layer="97"/>
-<wire x1="2.54" y1="48.26" x2="2.54" y2="124.46" width="0.1524" layer="97"/>
+<wire x1="2.54" y1="48.26" x2="2.54" y2="127" width="0.1524" layer="97"/>
 <wire x1="111.76" y1="177.8" x2="261.62" y2="177.8" width="0.1524" layer="97"/>
 <wire x1="261.62" y1="177.8" x2="261.62" y2="38.1" width="0.1524" layer="97"/>
 <wire x1="261.62" y1="38.1" x2="111.76" y2="38.1" width="0.1524" layer="97"/>
 <wire x1="111.76" y1="38.1" x2="111.76" y2="177.8" width="0.1524" layer="97"/>
 <wire x1="81.28" y1="45.72" x2="81.28" y2="2.54" width="0.1524" layer="97"/>
 <wire x1="81.28" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="97"/>
+<text x="5.08" y="121.92" size="1.778" layer="97">NOTE: polarization resistor needed for some SFP module!!!</text>
 </plain>
 <instances>
 <instance part="C1" gate="G$1" x="48.26" y="63.5"/>
