@@ -2023,8 +2023,8 @@ BatchPCB compatible</description>
 <element name="C6" library="rcl" package="C0603" value="1u" x="50.3936" y="12.3952" rot="MR0"/>
 <element name="R14" library="rcl" package="R0603" value="22" x="43.8912" y="16.8656" rot="MR270"/>
 <element name="Y1" library="SparkFun-FreqCtrl" package="CRYSTAL-SMD-5X3" value="25MHz" x="22.1488" y="19.304" rot="R180"/>
-<element name="C7" library="rcl" package="C0603" value="18p" x="23.5712" y="19.304" rot="MR270"/>
-<element name="C8" library="rcl" package="C0603" value="18p" x="20.7264" y="19.304" rot="MR90"/>
+<element name="C7" library="rcl" package="C0603" value="33p" x="23.5712" y="19.304" rot="MR270"/>
+<element name="C8" library="rcl" package="C0603" value="33p" x="20.7264" y="19.304" rot="MR90"/>
 <element name="R15" library="rcl" package="R0603" value="1M" x="26.6192" y="18.0848" rot="R270"/>
 <element name="LED2" library="led" package="CHIPLED_0805" value="" x="50.5968" y="20.9296" rot="R90"/>
 <element name="R16" library="rcl" package="R0603" value="330" x="50.5968" y="19.304" rot="MR180"/>

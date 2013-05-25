@@ -9776,8 +9776,8 @@ High-power, low thermal resistance package.</description>
 <part name="R14" library="rcl" deviceset="R-EU_" device="R0603" value="22"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="Y1" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="5X3" value="25MHz"/>
-<part name="C7" library="rcl" deviceset="C-EU" device="C0603" value="18p"/>
-<part name="C8" library="rcl" deviceset="C-EU" device="C0603" value="18p"/>
+<part name="C7" library="rcl" deviceset="C-EU" device="C0603" value="33p"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="C0603" value="33p"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="R15" library="rcl" deviceset="R-EU_" device="R0603" value="1M"/>
