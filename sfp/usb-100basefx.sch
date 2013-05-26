@@ -9865,7 +9865,7 @@ High-power, low thermal resistance package.</description>
 <wire x1="111.76" y1="38.1" x2="111.76" y2="177.8" width="0.1524" layer="97"/>
 <wire x1="81.28" y1="45.72" x2="81.28" y2="2.54" width="0.1524" layer="97"/>
 <wire x1="81.28" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="97"/>
-<text x="5.08" y="121.92" size="1.778" layer="97">NOTE: polarization resistor needed for some SFP module!!!</text>
+<text x="5.08" y="121.92" size="1.778" layer="97">NOTE: biasing resistor needed for some SFP modules!!!</text>
 </plain>
 <instances>
 <instance part="C1" gate="G$1" x="48.26" y="63.5"/>
